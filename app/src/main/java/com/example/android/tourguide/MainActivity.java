@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Create new list of places.
         final ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place("test", "test polish", R.drawable.flag));
+        places.add(new Place("test", "test polish"));
 
         // Create an {@link PlaceAdapter}, whose data source is a list of {@link Place}s.
         // The adapter knows how to create list items for each item in the list.

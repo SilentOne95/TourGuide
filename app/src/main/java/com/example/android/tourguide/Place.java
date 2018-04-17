@@ -56,4 +56,9 @@ public class Place {
     public int getImageResourceId(){
         return mImageResourceId;
     }
+
+    /** Returns whether or not there is an image for this place */
+    public boolean hasImage(){
+        return mImageResourceId != NO_IMAGE_PROVIDED;
+    }
 }
