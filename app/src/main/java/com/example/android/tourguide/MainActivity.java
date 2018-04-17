@@ -1,7 +1,10 @@
 package com.example.android.tourguide;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -11,24 +14,18 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.place_list);
+        setContentView(R.layout.activity_main);
 
-        // Create new list of places.
-        final ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place("test", "test polish"));
+        Button button = findViewById(R.id.button);
 
-        // Create an {@link PlaceAdapter}, whose data source is a list of {@link Place}s.
-        // The adapter knows how to create list items for each item in the list.
-        PlaceAdapter adapter = new PlaceAdapter(this, places);
+        button.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                Intent intent = new Intent(MainActivity.this, MonumentsActivity.class);
 
-        // Find the {@link ListView} object in the view hierarchy of the {@link Activity}.
-        // There should be a {@link ListView} with the view ID called list, which is declared in the
-        // place_list.xml layout file.
-        ListView listView = (ListView) findViewById(R.id.list);
-
-        // Make the {@link ListView} use the {@link PlaceAdapter} we created above, so that the
-        // {@link ListView} will display list items for each {@link Place} in the list.
-        listView.setAdapter(adapter);
+                startActivity(intent);
+            }
+        });
 
     }
 }
