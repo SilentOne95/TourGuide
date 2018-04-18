@@ -36,6 +36,12 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
         // Get the {@link Word} object located at this position in the list
         Place currentPlace = getItem(position);
 
+        if (position % 2 == 0) {
+            listItemView.setBackgroundResource(R.drawable.background);
+        } else {
+            listItemView.setBackgroundResource(R.drawable.background_alternate);
+        }
+
         // Find the TextView in the list_item.xml layout with the ID default_translation.
         TextView defaultTranslation = listItemView.findViewById(R.id.default_translation);
         // Get the default (English) translation from the currentPlace object and set this text on
