@@ -2,4 +2,16 @@
     <string name="app_name">Tour Guide</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Category name places list for monuments [CHAR LIMIT=20] -->
+    <string name="category_monuments">Monuments</string>
+
+    <!-- Category name for places list for museums[CHAR LIMIT=20] -->
+    <string name="category_museums">Museums</string>
+
+    <!-- Category name for the places list for others [CHAR LIMIT=20] -->
+    <string name="category_others">Others</string>
+
+    <!-- Category name for the places list for entertainment [CHAR LIMIT=20] -->
+    <string name="category_fun">Fun</string>
 </resources>
