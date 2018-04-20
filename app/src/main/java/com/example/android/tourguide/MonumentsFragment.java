@@ -30,21 +30,21 @@ public class MonumentsFragment extends Fragment {
         // Create new list of places.
         final ArrayList<Place> places = new ArrayList<>();
         places.add(new Place("The Sigismund's Column",
-                "Kolumna Zygmunta", R.drawable.flag));
+                "Kolumna Zygmunta", R.drawable.monument_one));
         places.add(new Place("The Tomb of the Unknown Soldier",
-                "Grób Nieznanego Żołnierza", R.drawable.flag));
+                "Grób Nieznanego Żołnierza", R.drawable.monument_two));
         places.add(new Place("The Chopin Statue",
-                "Pomnik Chopina", R.drawable.flag));
+                "Pomnik Chopina", R.drawable.monument_three ));
         places.add(new Place("The Little Insurrectionist",
-                "Pomnik Małego Powstańca", R.drawable.flag));
+                "Pomnik Małego Powstańca", R.drawable.monument_four ));
         places.add(new Place("The Monument to Prince Józef Poniatowski",
-                "Pomnik księcia Józefa Poniatwoskiego", R.drawable.flag));
+                "Pomnik księcia Józefa Poniatwoskiego", R.drawable.monument_five));
         places.add(new Place("The Nicolaus Copernicus Monument",
-                "Pomnik Mikołaja Kopernika", R.drawable.flag));
+                "Pomnik Mikołaja Kopernika", R.drawable.monument_six));
         places.add(new Place("The Monument to the Heroes of Warsaw",
-                "Pomnik Bohaterów Warszawy", R.drawable.flag));
+                "Pomnik Bohaterów Warszawy", R.drawable.monument_seven));
         places.add(new Place("The Aviator Monument",
-                "Pomnik Lotnika", R.drawable.flag));
+                "Pomnik Lotnika", R.drawable.monument_eight));
 
         // Create an {@link PlaceAdapter}, whose data source is a list of {@link Place}s.
         // The adapter knows how to create list items for each item in the list.

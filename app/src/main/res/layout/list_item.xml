@@ -2,7 +2,7 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="150dp"
     android:orientation="horizontal"
     android:background="#fff"
     android:padding="16dp">
@@ -11,7 +11,8 @@
         android:id="@+id/image"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_gravity="center_vertical"/>
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitCenter"/>
 
     <LinearLayout
         android:id="@+id/text_container"
