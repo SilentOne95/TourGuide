@@ -29,14 +29,22 @@ public class MonumentsFragment extends Fragment {
 
         // Create new list of places.
         final ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place("test", "test polish", R.drawable.flag));
-        places.add(new Place("test", "test polish", R.drawable.flag));
-        places.add(new Place("test", "test polish", R.drawable.flag));
-        places.add(new Place("test", "test polish", R.drawable.flag));
-        places.add(new Place("test", "test polish", R.drawable.flag));
-        places.add(new Place("test", "test polish", R.drawable.flag));
-        places.add(new Place("test", "test polish", R.drawable.flag));
-        places.add(new Place("test", "test polish", R.drawable.flag));
+        places.add(new Place("The Sigismund's Column",
+                "Kolumna Zygmunta", R.drawable.flag));
+        places.add(new Place("The Tomb of the Unknown Soldier",
+                "Grób Nieznanego Żołnierza", R.drawable.flag));
+        places.add(new Place("The Chopin Statue",
+                "Pomnik Chopina", R.drawable.flag));
+        places.add(new Place("The Little Insurrectionist",
+                "Pomnik Małego Powstańca", R.drawable.flag));
+        places.add(new Place("The Monument to Prince Józef Poniatowski",
+                "Pomnik księcia Józefa Poniatwoskiego", R.drawable.flag));
+        places.add(new Place("The Nicolaus Copernicus Monument",
+                "Pomnik Mikołaja Kopernika", R.drawable.flag));
+        places.add(new Place("The Monument to the Heroes of Warsaw",
+                "Pomnik Bohaterów Warszawy", R.drawable.flag));
+        places.add(new Place("The Aviator Monument",
+                "Pomnik Lotnika", R.drawable.flag));
 
         // Create an {@link PlaceAdapter}, whose data source is a list of {@link Place}s.
         // The adapter knows how to create list items for each item in the list.

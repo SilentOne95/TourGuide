@@ -29,14 +29,14 @@ public class OthersFragment extends Fragment {
 
         // Create new list of places.
         final ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place("test", "test polish"));
-        places.add(new Place("test", "test polish"));
-        places.add(new Place("test", "test polish"));
-        places.add(new Place("test", "test polish"));
-        places.add(new Place("test", "test polish"));
-        places.add(new Place("test", "test polish"));
-        places.add(new Place("test", "test polish"));
-        places.add(new Place("test", "test polish"));
+        places.add(new Place("The Royal Baths Park", "Łazienki Królewskie"));
+        places.add(new Place("The Grand Theatre", "Teatr Wielki"));
+        places.add(new Place("The Old Town", "Stare Miasto"));
+        places.add(new Place("Vistula boulevards", "Bulwary wiślane"));
+        places.add(new Place("Krakowskie Przedmieście Royal Avenue", "Krakowskie Przedmieście"));
+        places.add(new Place("Palace of Culture and Science", "Pałac Kultury i Nauki"));
+        places.add(new Place("The National Stadium", "Stadion Narodowy"));
+        places.add(new Place("Forts in Warsaw", "Twierdze i forty"));
 
 
         // Create an {@link PlaceAdapter}, whose data source is a list of {@link Place}s.

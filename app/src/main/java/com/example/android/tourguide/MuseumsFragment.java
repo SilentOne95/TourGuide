@@ -29,12 +29,18 @@ public class MuseumsFragment extends Fragment {
 
         // Create new list of places.
         final ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place("test", "test polish"));
-        places.add(new Place("test", "test polish"));
-        places.add(new Place("test", "test polish"));
-        places.add(new Place("test", "test polish"));
-        places.add(new Place("test", "test polish"));
-        places.add(new Place("test", "test polish"));
+        places.add(new Place("National Museum of Poland",
+                "Muzeum Narodowe"));
+        places.add(new Place("The Warsaw Uprising Museum",
+                "Muzeum Powstania Warszawskiego"));
+        places.add(new Place("The Royal Castle",
+                "Zamek Królewski"));
+        places.add(new Place("Museum of the Polish Army",
+                "Muzeum Wojska Polskiego"));
+        places.add(new Place("POLIN Museum of the History of Polish Jews",
+                "Muzeum Historii Żydów Polskich"));
+        places.add(new Place("Copernicus Science Centre",
+                "Centrum Nauki Kopernik"));
 
 
         // Create an {@link PlaceAdapter}, whose data source is a list of {@link Place}s.

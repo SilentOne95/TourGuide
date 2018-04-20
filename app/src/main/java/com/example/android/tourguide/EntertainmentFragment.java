@@ -29,12 +29,12 @@ public class EntertainmentFragment extends Fragment {
 
         // Create new list of places.
         final ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place("test", "test polish"));
-        places.add(new Place("test", "test polish"));
-        places.add(new Place("test", "test polish"));
-        places.add(new Place("test", "test polish"));
-        places.add(new Place("test", "test polish"));
-        places.add(new Place("test", "test polish"));
+        places.add(new Place("Cinemas", "Kina"));
+        places.add(new Place("Bowling", "Kręgielnie"));
+        places.add(new Place("Clubs", "Kluby"));
+        places.add(new Place("Go-cards", "Gokarty"));
+        places.add(new Place("Swimming pools", "Baseny"));
+        places.add(new Place("Billiard", "Bilard"));
 
 
         // Create an {@link PlaceAdapter}, whose data source is a list of {@link Place}s.
