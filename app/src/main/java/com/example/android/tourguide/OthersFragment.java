@@ -29,14 +29,14 @@ public class OthersFragment extends Fragment {
 
         // Create new list of places.
         final ArrayList<Place> places = new ArrayList<>();
-        places.add(new Place("The Royal Baths Park", "Łazienki Królewskie"));
-        places.add(new Place("The Grand Theatre", "Teatr Wielki"));
-        places.add(new Place("The Old Town", "Stare Miasto"));
-        places.add(new Place("Vistula boulevards", "Bulwary wiślane"));
-        places.add(new Place("Krakowskie Przedmieście Royal Avenue", "Krakowskie Przedmieście"));
-        places.add(new Place("Palace of Culture and Science", "Pałac Kultury i Nauki"));
-        places.add(new Place("The National Stadium", "Stadion Narodowy"));
-        places.add(new Place("Forts in Warsaw", "Twierdze i forty"));
+        places.add(new Place(getString(R.string.other_one_eng), getString(R.string.other_one_polish)));
+        places.add(new Place(getString(R.string.other_two_eng), getString(R.string.other_two_polish)));
+        places.add(new Place(getString(R.string.other_three_eng), getString(R.string.other_three_polish)));
+        places.add(new Place(getString(R.string.other_four_eng), getString(R.string.other_four_polish)));
+        places.add(new Place(getString(R.string.other_five_eng), getString(R.string.other_five_polish)));
+        places.add(new Place(getString(R.string.other_six_eng), getString(R.string.other_six_polish)));
+        places.add(new Place(getString(R.string.other_seven_eng), getString(R.string.other_seven_polish)));
+        places.add(new Place(getString(R.string.other_eight_eng), getString(R.string.other_eight_polish)));
 
 
         // Create an {@link PlaceAdapter}, whose data source is a list of {@link Place}s.

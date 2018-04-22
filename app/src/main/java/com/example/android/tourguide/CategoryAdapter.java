@@ -31,15 +31,22 @@ public class CategoryAdapter extends FragmentPagerAdapter {
      */
     @Override
     public Fragment getItem(int position) {
-        if (position == 0) {
-            return new MonumentsFragment();
-        } else if (position == 1) {
-            return new MuseumsFragment();
-        } else if (position == 2) {
-            return new OthersFragment();
-        } else {
-            return new EntertainmentFragment();
+        Fragment fragment = null;
+        switch (position) {
+            case 0:
+                fragment = new MonumentsFragment();
+                break;
+            case 1:
+                fragment = new MuseumsFragment();
+                break;
+            case 2:
+                fragment = new OthersFragment();
+                break;
+            case 3:
+                fragment = new EntertainmentFragment();
+                break;
         }
+        return fragment;
     }
 
     /**
@@ -53,14 +60,15 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     @Nullable
     @Override
     public CharSequence getPageTitle(int position) {
-        if (position == 0) {
-            return mContext.getString(R.string.category_monuments);
-        } else if (position == 1) {
-            return mContext.getString(R.string.category_museums);
-        } else if (position == 2) {
-            return mContext.getString(R.string.category_others);
-        } else {
-            return mContext.getString(R.string.category_fun);
+        switch (position){
+            case 0:
+                return mContext.getString(R.string.category_monuments);
+            case 1:
+                return mContext.getString(R.string.category_museums);
+            case 2:
+                return mContext.getString(R.string.category_others);
+            default:
+                return mContext.getString(R.string.category_fun);
         }
     }
 }

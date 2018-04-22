@@ -67,8 +67,6 @@ public class PlaceAdapter extends ArrayAdapter<Place> {
             imageView.setVisibility(View.GONE);
         }
 
-
-
         return listItemView;
     }
 }

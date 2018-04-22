@@ -17,4 +17,65 @@
 
     <!-- Monuments tab mage description -->
     <string name="monuments_image_description">Small image of the monument.</string>
+
+    <!-- All names of monuments, museums etc -->
+    <string name="monument_one_eng">The Sigismund\'s Column</string>
+    <string name="monument_one_polish">Kolumna Zygmunta</string>
+    <string name="monument_two_eng">The Tomb of the Unknown Soldier</string>
+    <string name="monument_two_polish">Grób Nieznanego Żołnierza</string>
+    <string name="monument_three_eng">The Chopin Statue</string>
+    <string name="monument_three_polish">Pomnik Chopina</string>
+    <string name="monument_four_eng">The Little Insurrectionist</string>
+    <string name="monument_four_polish">Pomnik Małego Powstańca</string>
+    <string name="monument_five_eng">The Monument to Prince Józef Poniatowski</string>
+    <string name="monument_five_polish">Pomnik księcia Józefa Poniatwoskiego</string>
+    <string name="monument_six_eng">The Nicolaus Copernicus Monument</string>
+    <string name="monument_six_polish">Pomnik Mikołaja Kopernika</string>
+    <string name="monument_seven_eng">The Monument to the Heroes of Warsaw</string>
+    <string name="monument_seven_polish">Pomnik Bohaterów Warszawy</string>
+    <string name="monument_eight_eng">The Aviator Monument</string>
+    <string name="monument_eight_polish">Pomnik Lotnika</string>
+
+    <string name="museum_one_eng">National Museum of Poland</string>
+    <string name="museum_one_polish">Muzeum Narodowe</string>
+    <string name="museum_two_eng">The Warsaw Uprising Museum</string>
+    <string name="museum_two_polish">Muzeum Powstania Warszawskiego</string>
+    <string name="museum_three_eng">The Royal Castle</string>
+    <string name="museum_three_polish">Zamek Królewski</string>
+    <string name="museum_four_eng">Museum of the Polish Army</string>
+    <string name="museum_four_polish">Muzeum Wojska Polskiego</string>
+    <string name="museum_five_eng">POLIN Museum of the History of Polish Jews</string>
+    <string name="museum_five_polish">Muzeum Historii Żydów Polskich</string>
+    <string name="museum_six_eng">Copernicus Science Centre</string>
+    <string name="museum_six_polish">Centrum Nauki Kopernik</string>
+
+    <string name="other_one_eng">The Royal Baths Park</string>
+    <string name="other_one_polish">Łazienki Królewskie</string>
+    <string name="other_two_eng">The Grand Theatre</string>
+    <string name="other_two_polish">Teatr Wielki</string>
+    <string name="other_three_eng">The Old Town</string>
+    <string name="other_three_polish">Stare Miasto</string>
+    <string name="other_four_eng">Vistula boulevards</string>
+    <string name="other_four_polish">Bulwary wiślane</string>
+    <string name="other_five_eng">Krakowskie Przedmieście Royal Avenue</string>
+    <string name="other_five_polish">Krakowskie Przedmieście</string>
+    <string name="other_six_eng">Palace of Culture and Science</string>
+    <string name="other_six_polish">Pałac Kultury i Nauki</string>
+    <string name="other_seven_eng">The National Stadium</string>
+    <string name="other_seven_polish">Stadion Narodowy</string>
+    <string name="other_eight_eng">Forts in Warsaw</string>
+    <string name="other_eight_polish">Twierdze i forty</string>
+
+    <string name="entertainment_one_eng">Cinemas</string>
+    <string name="entertainment_one_polish">Kina</string>
+    <string name="entertainment_two_eng">Bowling</string>
+    <string name="entertainment_two_polish">Kręgielnie</string>
+    <string name="entertainment_three_eng">Clubs</string>
+    <string name="entertainment_three_polish">Kluby</string>
+    <string name="entertainment_four_eng">Go-cards</string>
+    <string name="entertainment_four_polish">Gokarty</string>
+    <string name="entertainment_five_eng">Swimming pools</string>
+    <string name="entertainment_five_polish">Baseny</string>
+    <string name="entertainment_six_eng">Billiard</string>
+    <string name="entertainment_six_polish">Bilard</string>
 </resources>
