@@ -7,10 +7,9 @@
     <color name="white">#fff</color>
 
     <!-- Background color for odd items in list -->
-    <color name="grey">#ffffff</color>
-    <color name="itemselected">#EDEDED</color>
+    <color name="white_hover">#ededed</color>
 
     <!-- Background color for even items in list -->
-    <color name="login_hover">#e84040</color>
-    <color name="sign_out_color">#B71C1C</color>
+    <color name="red_hover">#e84040</color>
+    <color name="red">#b71c1c</color>
 </resources>

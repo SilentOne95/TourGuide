@@ -14,4 +14,7 @@
 
     <!-- Category name for the places list for entertainment [CHAR LIMIT=20] -->
     <string name="category_fun">Fun</string>
+
+    <!-- Monuments tab mage description -->
+    <string name="monuments_image_description">Small image of the monument.</string>
 </resources>

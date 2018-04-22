@@ -7,6 +7,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- TabLayout widget style -->
+    <style name="Base.Widget.Design.TabLayout" parent="android:Widget">
+        <item name="tabBackground">@drawable/tab_background</item>
+        <item name="tabIndicatorColor">@color/colorPrimaryDark</item>
+        <item name="tabIndicatorHeight">@dimen/tab_indicator_height</item>
+        <item name="tabTextColor">@color/colorPrimaryDark</item>
+    </style>
+
     <!-- list_item activity -->
     <style name="list_item_layout">
         <item name="android:layout_width">match_parent</item>
@@ -21,6 +29,7 @@
         <item name="android:layout_height">@dimen/list_item_image_size</item>
         <item name="android:layout_gravity">center_vertical</item>
         <item name="android:scaleType">fitCenter</item>
+        <item name="android:description">@string/monuments_image_description</item>
     </style>
 
     <style name="list_item_text_container">

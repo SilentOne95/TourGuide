@@ -2,10 +2,10 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_selected="false"
         android:state_pressed="false"
-        android:drawable="@color/grey" />
+        android:drawable="@color/white" />
     <item android:state_pressed="true"
-        android:drawable="@color/itemselected" />
+        android:drawable="@color/white_hover" />
     <item android:state_selected="true"
         android:state_pressed="false"
-        android:drawable="@color/itemselected" />
+        android:drawable="@color/white_hover" />
 </selector>
