@@ -1,5 +1,4 @@
 <resources>
-
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
@@ -8,4 +7,46 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- list_item activity -->
+    <style name="list_item_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_layout_height</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:padding">@dimen/padding</item>
+    </style>
+
+    <style name="list_item_image">
+        <item name="android:layout_width">@dimen/list_item_image_size</item>
+        <item name="android:layout_height">@dimen/list_item_image_size</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="list_item_text_container">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingStart">@dimen/padding</item>
+    </style>
+
+    <style name="list_item_basic_text_view">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <style name="list_item_english_text_translation" parent="list_item_basic_text_view">
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingBottom">@dimen/padding</item>
+    </style>
+
+    <!-- place_list activity -->
+    <style name="place_list_parent_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:drawSelectorOnTop">true</item>
+    </style>
 </resources>

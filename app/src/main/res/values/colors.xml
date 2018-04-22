@@ -4,6 +4,8 @@
     <color name="colorPrimaryDark">#000</color>
     <color name="colorAccent">#1a237e</color>
 
+    <color name="white">#fff</color>
+
     <!-- Background color for odd items in list -->
     <color name="grey">#ffffff</color>
     <color name="itemselected">#EDEDED</color>
